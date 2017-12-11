@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SteamVRArduglove", "SteamVRArduglove\SteamVRArduglove.vcxproj", "{ED33C406-D1E0-476F-98C1-B948D5FA35FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_vrinputemulator", "deps\OpenVR-InputEmulator\lib_vrinputemulator\lib_vrinputemulator.vcxproj", "{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Debug|x64.ActiveCfg = Debug|x64
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Debug|x64.Build.0 = Debug|x64
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Debug|x86.Build.0 = Debug|Win32
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Release|x64.ActiveCfg = Release|x64
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Release|x64.Build.0 = Release|x64
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Release|x86.ActiveCfg = Release|Win32
+		{ED33C406-D1E0-476F-98C1-B948D5FA35FD}.Release|x86.Build.0 = Release|Win32
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Debug|x64.ActiveCfg = Debug|x64
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Debug|x64.Build.0 = Debug|x64
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Debug|x86.ActiveCfg = Debug|Win32
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Debug|x86.Build.0 = Debug|Win32
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Release|x64.ActiveCfg = Release|x64
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Release|x64.Build.0 = Release|x64
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Release|x86.ActiveCfg = Release|Win32
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3105378A-C63B-4B89-A453-EA52A4752BB8}
+	EndGlobalSection
+EndGlobal
